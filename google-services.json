@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "127698204066",
+    "firebase_url": "https://bookface-f0b7d.firebaseio.com",
+    "project_id": "bookface-f0b7d",
+    "storage_bucket": "bookface-f0b7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127698204066:android:e14ac71346756adc0eeefb",
+        "android_client_info": {
+          "package_name": "com.companyname.bookface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127698204066-8hn8skodr51e1h0nqs8p0vsolb7irk52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVPmz1ACSUFGfqUuJYCtuqn5qm0rqMQOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127698204066-8hn8skodr51e1h0nqs8p0vsolb7irk52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

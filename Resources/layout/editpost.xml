@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minHeight="400dp"
+    android:minWidth="350dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/postImageView"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/photo"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+    
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="what's on your mind?"
+            />
+
+        <EditText
+            android:id="@+id/postEditText"
+            android:background="@drawable/curvededges_white"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:gravity="start"
+            />
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curvededges_blue"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:text="Update"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            />
+    </LinearLayout>    
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" 
+    android:layout_width="match_parent"
+    app:cardElevation="2dp"
+    android:layout_marginTop="16dp"
+    android:layout_height="290dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    
+        <ImageView
+            android:id="@+id/postImage"
+            android:src="@drawable/photo"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        
+            <TextView
+                android:id="@+id/usernameTextView"
+                android:textSize="16sp"
+                android:text="Rojohn Ulep"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"   
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/postBodyTextView"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                />
+
+            <View
+                android:layout_marginTop="10dp"
+                android:background="@color/lightash"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                />
+
+            <RelativeLayout
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            
+
+                <ImageView
+                    android:id="@+id/likeButton"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/like"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/commentButton"
+                    android:layout_toRightOf="@+id/likeButton"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/comment"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    />
+
+                <TextView
+                    android:id="@+id/likeTextView"
+                    android:layout_alignParentRight="true"
+                    android:text="24 likes"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            
+            </RelativeLayout>              
+        </LinearLayout>  
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+ 
